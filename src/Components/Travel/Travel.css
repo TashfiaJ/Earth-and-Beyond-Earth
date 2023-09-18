@@ -1,0 +1,55 @@
+.btnTravel{
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    color: #E4DFDA;
+    font-size: 13px;
+    background: rgb(4,51,75);
+    background: radial-gradient(circle, rgba(4,51,75,1) 0%, rgba(0,0,0,1) 100%);  
+    padding: 10px 20px 10px 20px;
+    border: solid #E4DFDA 4px;
+    text-decoration: none;
+    width: 150px;
+    height: 70px;
+    margin-top: 20px;
+   /* background-image: url(../../../public/baby); */
+  }
+  
+  .btn:hover {
+    background: rgb(228,223,218);
+    background: radial-gradient(circle, rgba(228,223,218,1) 0%, rgba(4,51,75,1) 100%);  
+    border: solid #E4DFDA 4px;
+    text-decoration: none;
+    color: #000;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+
+p{
+    color: black;
+}
+
+.travel-x-btn {
+  font-size: 15px;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  -webkit-border-order-radius: 28;
+  -moz-border-radius: 28;
+  -webkit-border-radius: 28;
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+  text-shadow: 0 2px 20px rgba(255, 255, 255, 0.8);
+  transition: color 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.travel-x-btn:hover {
+  color: rgb(156, 199, 255);
+}

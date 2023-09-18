@@ -1,0 +1,68 @@
+
+    
+    .bg{
+      background-image: url(../../../public/login-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      background-position: center;
+      position: relative;
+    }
+    
+    .login-no-overlay {
+      position: relative;
+      z-index: 1; /* Bring the content above the overlay */
+    }
+
+    .arrow-back-btn {
+      position: absolute;
+      top: 10px;
+      left: -650px;
+    } 
+
+    .reg{
+        color: #E4DADF;
+        margin-top: 10px;
+        margin-right: 140px;
+    }
+    
+    .regtxt{
+        color: #E4DADF;
+        text-decoration: underline;
+      color: white;
+    }
+
+    .regtxt:hover{
+        color: #224ec0;
+    }
+
+    .planet-prev {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Adjust the height as needed */
+    }
+
+    .planet-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .planet-prev img {
+      animation: rotate 5s infinite linear;
+      transform-origin: center;
+    }
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    

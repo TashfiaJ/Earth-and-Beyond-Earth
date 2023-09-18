@@ -1,0 +1,54 @@
+.union-btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    color: #1789FC;
+    font-size: 18px;
+    background: white;
+    padding: 10px 20px 10px 20px;
+    border: solid #1789FC 2px;
+    text-decoration: none;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  .union-btn:hover {
+    background-color: #1789FC;
+    border: solid #F7C7DB 4px;
+    text-decoration: none;
+    color: white
+  }
+
+  .modal-p {
+    color: black;
+  }
+  
+  .modal .modal-dialog {
+    max-width: 800px; /* Adjust the value as needed */
+    width: 100%;
+  }
+  
+  .modal .modal-content {
+    width: 100%;
+  }
+
+  .light-p {
+    padding-left: 10px;
+    font-weight: 300;
+  }
+
+  .light-pq {
+    font-weight: 300;
+  }
+
+  .offcanvas {
+    z-index: 1040; /* Adjust the z-index value as needed */
+  }
+  
+  .offcanvas-backdrop.show {
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    z-index: 1039; /* Adjust the z-index value as needed */
+  }
+  
+
